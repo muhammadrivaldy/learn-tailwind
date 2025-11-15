@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tailwind Aspect Ratio Example</title>
+    <link href="../src/output.css" rel="stylesheet">
+</head>
+
+<body class="flex flex-col items-center justify-center min-h-screen bg-gray-100 space-y-8">
+    <!-- Image with aspect ratio -->
+    <div class="w-full max-w-md aspect-video bg-gray-300 rounded-lg overflow-hidden shadow-lg">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Sample" class="object-cover w-full h-full" />
+    </div>
+    <!-- YouTube video with aspect ratio -->
+    <div class="w-full max-w-md aspect-video bg-black rounded-lg overflow-hidden shadow-lg">
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/AH6yv0WRqBk" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+</body>
+
+</html>
